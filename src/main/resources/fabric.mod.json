@@ -15,16 +15,16 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/beyondsculk/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.inditorias.beyondsculk.BeyondSculk"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "beyondsculk.mixins.json"
   ],
 
   "depends": {
