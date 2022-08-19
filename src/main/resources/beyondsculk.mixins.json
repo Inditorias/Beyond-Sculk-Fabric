@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.inditorias.beyondsculk.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "BeyondSculkMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
