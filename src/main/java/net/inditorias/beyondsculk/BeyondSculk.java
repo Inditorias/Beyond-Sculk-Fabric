@@ -1,6 +1,7 @@
 package net.inditorias.beyondsculk;
 
 import net.fabricmc.api.ModInitializer;
+import net.inditorias.beyondsculk.registries.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,10 +14,7 @@ public class BeyondSculk implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		RegItems.registerModItems();
+		RegBlocks.registerModBlocks();
 	}
 }
