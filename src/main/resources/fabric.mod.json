@@ -21,6 +21,9 @@
   "entrypoints": {
     "main": [
       "net.inditorias.beyondsculk.BeyondSculk"
+    ],
+    "client": [
+      "net.inditorias.beyondsculk.BeyondSculkClient"
     ]
   },
   "mixins": [
