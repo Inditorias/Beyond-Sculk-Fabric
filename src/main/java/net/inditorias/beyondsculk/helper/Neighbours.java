@@ -53,4 +53,13 @@ public class Neighbours {
         }
         return matches;
     }
+
+    public static BlockPos getFirstRemotelyAdjacentBlockPosMatching(World world, BlockPos pos, Block block){
+        for(BlockPos p : getRemotelyAdjacentBlockPos(pos)){
+            if(world.getBlockState(p).isOf(block)){
+                return p;
+            }
+        }
+        return null;
+    }
 }

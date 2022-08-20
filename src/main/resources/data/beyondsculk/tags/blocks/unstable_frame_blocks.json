@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "beyondsculk:unstable_reinforced_deepslate"
+    "beyondsculk:activated_reinforced_deepslate",
+    "beyondsculk:unstable_reinforced_deepslate",
+    "beyondsculk:resonant_reinforced_deepslate"
   ]
 }

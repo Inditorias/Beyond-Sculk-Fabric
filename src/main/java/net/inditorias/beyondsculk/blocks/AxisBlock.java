@@ -1,5 +1,7 @@
 package net.inditorias.beyondsculk.blocks;
 
+import net.inditorias.beyondsculk.registries.RegBlocks;
+import net.inditorias.beyondsculk.registries.RegTags;
 import net.minecraft.block.*;
 import net.minecraft.item.ItemStack;
 import net.minecraft.state.StateManager;
@@ -31,14 +33,13 @@ public class AxisBlock extends Block {
     }
     @Override
     public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
-        boolean bl;
         Direction.Axis axis = direction.getAxis();
         Direction.Axis axis2 = state.get(AXIS);
-        boolean bl2 = bl = axis2 != axis && axis.isHorizontal();
+        boolean bl = axis2 != axis && axis.isHorizontal();
         if (bl || neighborState.isOf(this) || new AreaHelper(world, pos, axis2).wasAlreadyValid()) {
             return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
         }
-        return Blocks.AIR.getDefaultState();
+        return neighborState.isIn(RegTags.Blocks.UNSTABLE_FRAME_BLOCKS) ? super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos) : Blocks.AIR.getDefaultState();
     }
     @Override
     public ItemStack getPickStack(BlockView world, BlockPos pos, BlockState state) {

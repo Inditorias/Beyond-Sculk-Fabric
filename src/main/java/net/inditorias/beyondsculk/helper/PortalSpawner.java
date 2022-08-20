@@ -141,7 +141,7 @@ public class PortalSpawner {
                     break;
                 }
             }
-            if(this.height <= 21 && this.height > 3){
+            if(this.height <= 21 && this.height >= 3){
                 return this.height;
             }else{
                 this.bottomLeft = null;

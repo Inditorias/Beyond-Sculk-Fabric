@@ -38,7 +38,7 @@ public class RegBlocks {
             ItemGroup.BUILDING_BLOCKS);
 
     public static final Block RESONANT_PORTAL =  registerBlockWithoutItem("resonant_portal",
-            new AxisBlock(FabricBlockSettings.copy(Blocks.NETHER_PORTAL)));
+            new ResonantPortal(FabricBlockSettings.copy(Blocks.NETHER_PORTAL)));
 
     public static final Block SCULK_PORTAL = registerBlockWithoutItem("sculk_portal",
             new AxisBlock(FabricBlockSettings.copy(Blocks.NETHER_PORTAL)));
