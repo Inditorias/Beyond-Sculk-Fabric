@@ -27,14 +27,5 @@ public class ResonantReinforcedDeepslateBlockEntity extends BlockEntity {
         for(BlockPos p : neighbors){
             world.setBlockState(p, RegBlocks.RESONANT_REINFORCED_DEEPSLATE.getDefaultState());
         }
-        if (neighbors.isEmpty()) {
-            neighbors = Neighbours.getRemotelyAdjacentBlockPosMatching(world, pos, RegBlocks.RESONANT_PORTAL);
-            if(neighbors.isEmpty()){
-                PortalSpawner spawner = new PortalSpawner(RegTags.Blocks.RESONANT_FRAME_BLOCKS, RegTags.Blocks.RESONANT_PORTAL_REPLACEABLE, (AxisBlock) RegBlocks.RESONANT_PORTAL);
-                if (spawner.trySpawnPortal(world, pos.up())) {
-                    world.playSound(null, pos, SoundEvents.BLOCK_END_PORTAL_SPAWN, SoundCategory.BLOCKS, 1f, 1f);
-                }
-            }
-        }
     }
 }

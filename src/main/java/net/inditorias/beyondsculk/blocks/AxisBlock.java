@@ -39,7 +39,7 @@ public class AxisBlock extends Block {
         if (bl || neighborState.isOf(this) || new AreaHelper(world, pos, axis2).wasAlreadyValid()) {
             return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
         }
-        return neighborState.isIn(RegTags.Blocks.UNSTABLE_FRAME_BLOCKS) ? super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos) : Blocks.AIR.getDefaultState();
+        return neighborState.isIn(RegTags.Blocks.SCULK_FRAME_BLOCKS) ? super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos) : Blocks.AIR.getDefaultState();
     }
     @Override
     public ItemStack getPickStack(BlockView world, BlockPos pos, BlockState state) {

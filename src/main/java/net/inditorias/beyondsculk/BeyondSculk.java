@@ -19,5 +19,6 @@ public class BeyondSculk implements ModInitializer {
 		RegDimensions.register();
 		RegTags.register();
 		RegBlockEntities.registerAllBlockEntities();
+		RegPortals.registerCustomPortals();
 	}
 }
