@@ -174,9 +174,7 @@ public class ActivatedReinforcedDeepslate extends BlockWithEntity implements Blo
     }
 
     private void createPortalBoss(ServerWorld world, BlockPos pos){
-        BlockPos pos1 = Neighbours.getFirstRemotelyAdjacentBlockPosMatching(world, pos, RegBlocks.SCULK_PORTAL);
         world.setBlockState(pos, RegBlocks.RESONANT_REINFORCED_DEEPSLATE.getDefaultState());
-        world.setBlockState(pos1, Blocks.FIRE.getDefaultState());
     }
 
     @Override
