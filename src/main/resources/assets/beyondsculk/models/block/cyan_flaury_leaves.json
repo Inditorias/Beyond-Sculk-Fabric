@@ -1,0 +1,6 @@
+{
+  "parent":"minecraft:block/leaves",
+  "textures": {
+    "all": "beyondsculk:block/cyan_flaury_leaves"
+  }
+}

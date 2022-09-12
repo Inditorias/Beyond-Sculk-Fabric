@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "beyondsculk:block/flaury_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "beyondsculk:block/flaury_log"
+    },
+    "axis=z": {
+      "model": "beyondsculk:block/flaury_log_horizontal",
+      "x": 90
+    }
+  }
+}

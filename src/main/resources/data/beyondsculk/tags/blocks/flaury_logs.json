@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values":[
+   "beyondsculk:flaury_log",
+    "beyondsculk:flaury_wood",
+    "beyondsculk:stripped_flaury_log",
+    "beyondsculk:stripped_flaury_wood"
+  ]
+}

@@ -22,6 +22,8 @@ public class RegTags {
         public static final TagKey<Block> UNSTABLE_PORTAL_REPLACEABLE = createTag("unstable_portal_replaceable");
         public static final TagKey<Block> SCULK_PORTAL_REPLACEABLE = createTag("sculk_portal_replaceable");
 
+        public static final TagKey<Block> FLAURY_LOGS = createTag("flaury_logs");
+
         private static TagKey<Block> createTag(String name){
             return TagKey.of(Registry.BLOCK_KEY, new Identifier(BeyondSculk.MOD_ID, name));
         }

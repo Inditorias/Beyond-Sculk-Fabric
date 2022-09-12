@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "beyondsculk:block/flaury_log_top",
+    "side": "beyondsculk:block/flaury_log"
+  }
+}

@@ -2,6 +2,8 @@ package net.inditorias.beyondsculk;
 
 import net.fabricmc.api.ModInitializer;
 import net.inditorias.beyondsculk.registries.*;
+import net.inditorias.beyondsculk.world.feature.ModConfiguredFeatures;
+import net.inditorias.beyondsculk.world.gen.ModWorldGen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,11 +16,15 @@ public class BeyondSculk implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModConfiguredFeatures.registerConfiguredFeatures();
 		RegItems.registerModItems();
 		RegBlocks.registerModBlocks();
 		RegDimensions.register();
 		RegTags.register();
 		RegBlockEntities.registerAllBlockEntities();
 		RegPortals.registerCustomPortals();
+		RegRegistries.registerRegistries();
+		RegPotions.registerPotions();
+		ModWorldGen.generateModWorldGen();
 	}
 }

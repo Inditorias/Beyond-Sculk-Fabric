@@ -10,5 +10,33 @@
 
   "block.beyondsculk.resonant_portal": "Otherworld Portal",
   "block.beyondsculk.sculk_portal": "Sculk Portal",
-  "block.beyondsculk.soul_water_cauldron": "Cauldron of Souls"
+  "block.beyondsculk.soul_water_cauldron": "Cauldron of Souls",
+
+  "block.beyondsculk.flaury_log" : "Flaury Log",
+  "block.beyondsculk.flaury_wood" : "Flaury Wood",
+  "block.beyondsculk.stripped_flaury_log" : "Stripped Flaury Log",
+  "block.beyondsculk.stripped_flaury_wood" : "Stripped Flaury Wood",
+  "block.beyondsculk.flaury_planks" : "Flaury Planks",
+  "block.beyondsculk.flaury_sapling" : "Flaury Sapling",
+
+  "block.beyondsculk.blue_flaury_leaves": "Blue Flaury Leaves",
+  "block.beyondsculk.chartruce_flaury_leaves": "Chartruce Flaury Leaves",
+  "block.beyondsculk.cyan_flaury_leaves": "Cyan Flaury Leaves",
+  "block.beyondsculk.magenta_flaury_leaves": "Magenta Flaury Leaves",
+  "block.beyondsculk.orange_flaury_leaves": "Orange Flaury Leaves",
+  "block.beyondsculk.red_flaury_leaves": "Red Flaury Leaves",
+
+  "item.minecraft.potion.effect.darkness": "Darkness Potion",
+  "item.minecraft.splash_potion.effect.darkness": "Splash Potion of Darkness",
+  "item.minecraft.lingering_potion.effect.darkness": "Lingering Potion of Darkness",
+  "item.minecraft.potion.effect.blindness": "Blindness Potion",
+  "item.minecraft.splash_potion.effect.blindness": "Splash Potion of Blindness",
+  "item.minecraft.lingering_potion.effect.blindness": "Lingering Potion of Blindness",
+
+  "item.minecraft.potion.effect.long_darkness": "Darkness Potion",
+  "item.minecraft.splash_potion.effect.long_darkness": "Splash Potion of Darkness",
+  "item.minecraft.lingering_potion.effect.long_darkness": "Lingering Potion of Darkness",
+  "item.minecraft.potion.effect.long_blindness": "Blindness Potion",
+  "item.minecraft.splash_potion.effect.long_blindness": "Splash Potion of Blindness",
+  "item.minecraft.lingering_potion.effect.long_blindness": "Lingering Potion of Blindness"
 }

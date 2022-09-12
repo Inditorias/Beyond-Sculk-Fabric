@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "beyondsculk:block/stripped_flaury_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "beyondsculk:block/stripped_flaury_wood"
+    },
+    "axis=z": {
+      "model": "beyondsculk:block/stripped_flaury_wood",
+      "x": 90
+    }
+  }
+}
