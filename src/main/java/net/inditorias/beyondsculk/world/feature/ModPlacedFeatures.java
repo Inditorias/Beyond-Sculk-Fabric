@@ -10,4 +10,5 @@ public class ModPlacedFeatures {
             ModConfiguredFeatures.FLAURY_SPAWN, VegetationPlacedFeatures.modifiers(
                     PlacedFeatures.createCountExtraModifier(2, 0.11f, 4)
             ));
+
 }

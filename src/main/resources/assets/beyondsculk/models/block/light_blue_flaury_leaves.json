@@ -1,0 +1,6 @@
+{
+  "parent":"minecraft:block/leaves",
+  "textures": {
+    "all": "beyondsculk:block/light_blue_flaury_leaves"
+  }
+}

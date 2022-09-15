@@ -1,6 +1,6 @@
 {
   "parent":"minecraft:block/leaves",
   "textures": {
-    "all": "beyondsculk:block/chartruce_flaury_leaves"
+    "all": "beyondsculk:block/yellow_flaury_leaves"
   }
 }

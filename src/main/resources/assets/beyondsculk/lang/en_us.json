@@ -19,12 +19,22 @@
   "block.beyondsculk.flaury_planks" : "Flaury Planks",
   "block.beyondsculk.flaury_sapling" : "Flaury Sapling",
 
+  "block.beyondsculk.black_flaury_leaves": "Black Flaury Leaves",
   "block.beyondsculk.blue_flaury_leaves": "Blue Flaury Leaves",
-  "block.beyondsculk.chartruce_flaury_leaves": "Chartruce Flaury Leaves",
+  "block.beyondsculk.brown_flaury_leaves": "Brown Flaury Leaves",
+  "block.beyondsculk.green_flaury_leaves": "Green Flaury Leaves",
+  "block.beyondsculk.gray_flaury_leaves": "Gray Flaury Leaves",
   "block.beyondsculk.cyan_flaury_leaves": "Cyan Flaury Leaves",
+  "block.beyondsculk.light_blue_flaury_leaves": "Light Blue Flaury Leaves",
+  "block.beyondsculk.light_gray_flaury_leaves": "Light Gray Flaury Leaves",
+  "block.beyondsculk.lime_flaury_leaves": "Lime Flaury Leaves",
   "block.beyondsculk.magenta_flaury_leaves": "Magenta Flaury Leaves",
   "block.beyondsculk.orange_flaury_leaves": "Orange Flaury Leaves",
+  "block.beyondsculk.pink_flaury_leaves": "Pink Flaury Leaves",
+  "block.beyondsculk.purple_flaury_leaves": "Purple Flaury Leaves",
   "block.beyondsculk.red_flaury_leaves": "Red Flaury Leaves",
+  "block.beyondsculk.white_flaury_leaves": "White Flaury Leaves",
+  "block.beyondsculk.yellow_flaury_leaves": "Yellow Flaury Leaves",
 
   "item.minecraft.potion.effect.darkness": "Darkness Potion",
   "item.minecraft.splash_potion.effect.darkness": "Splash Potion of Darkness",
@@ -38,5 +48,10 @@
   "item.minecraft.lingering_potion.effect.long_darkness": "Lingering Potion of Darkness",
   "item.minecraft.potion.effect.long_blindness": "Blindness Potion",
   "item.minecraft.splash_potion.effect.long_blindness": "Splash Potion of Blindness",
-  "item.minecraft.lingering_potion.effect.long_blindness": "Lingering Potion of Blindness"
+  "item.minecraft.lingering_potion.effect.long_blindness": "Lingering Potion of Blindness",
+
+  "item.minecraft.tipped_arrow.effect.darkeness": "Arrow of Darkness",
+  "item.minecraft.tipped_arrow.effect.long_darkeness": "Arrow of Darkenss",
+  "item.minecraft.tipped_arrow.effect.blindness": "Arrow of Blindness",
+  "item.minecraft.tipped_arrow.effect.long_blindness": "Arrow of Blindness"
 }

@@ -63,7 +63,27 @@ public class RegBlocks {
 
     public static final Block BLUE_FLAURY_LEAVES = registerBlock("blue_flaury_leaves",
             createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
-    public static final Block CHARTRUCE_FLAURY_LEAVES = registerBlock("chartruce_flaury_leaves",
+    public static final Block BROWN_FLAURY_LEAVES = registerBlock("brown_flaury_leaves",
+            createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
+    public static final Block BLACK_FLAURY_LEAVES = registerBlock("black_flaury_leaves",
+            createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
+    public static final Block GRAY_FLAURY_LEAVES = registerBlock("gray_flaury_leaves",
+            createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
+    public static final Block LIGHT_BLUE_FLAURY_LEAVES = registerBlock("light_blue_flaury_leaves",
+            createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
+    public static final Block LIGHT_GRAY_FLAURY_LEAVES = registerBlock("light_gray_flaury_leaves",
+            createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
+    public static final Block LIME_FLAURY_LEAVES = registerBlock("lime_flaury_leaves",
+            createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
+    public static final Block PINK_FLAURY_LEAVES = registerBlock("pink_flaury_leaves",
+            createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
+    public static final Block PURPLE_FLAURY_LEAVES = registerBlock("purple_flaury_leaves",
+            createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
+    public static final Block WHITE_FLAURY_LEAVES = registerBlock("white_flaury_leaves",
+            createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
+    public static final Block YELLOW_FLAURY_LEAVES = registerBlock("yellow_flaury_leaves",
+            createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
+    public static final Block GREEN_FLARUY_LEAVES = registerBlock("green_flaury_leaves",
             createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);
     public static final Block CYAN_FLAURY_LEAVES = registerBlock("cyan_flaury_leaves",
             createLeavesBlock(BlockSoundGroup.GRASS), ItemGroup.DECORATIONS);

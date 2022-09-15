@@ -2,6 +2,8 @@ package net.inditorias.beyondsculk.world.gen.foliage;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
+import net.inditorias.beyondsculk.helper.Math.BlockVector3;
+import net.inditorias.beyondsculk.helper.MathHelper;
 import net.inditorias.beyondsculk.world.feature.ModConfiguredFeatures;
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.BlockPos;
@@ -12,6 +14,7 @@ import net.minecraft.world.gen.feature.TreeFeatureConfig;
 import net.minecraft.world.gen.foliage.FoliagePlacer;
 import net.minecraft.world.gen.foliage.FoliagePlacerType;
 
+import java.util.Set;
 import java.util.function.BiConsumer;
 
 public class ElipseFoliagePlacer extends FoliagePlacer {
@@ -40,17 +43,29 @@ public class ElipseFoliagePlacer extends FoliagePlacer {
 
     @Override
     protected void generate(TestableWorld world, BiConsumer<BlockPos, BlockState> replacer, Random random, TreeFeatureConfig config, int trunkHeight, TreeNode treeNode, int foliageHeight, int radius, int offset) {
-        for(int j = height; j > -height; j--){
-            for(int i = widthX; i >= -widthX; i--){
-                //check if... ?
-                for(int k = widthZ; k >= -widthZ; k--){
-                    //i j k -> x y z
-                    if(!isInvalidForLeaves(random, i, j, k, widthX, treeNode.isGiantTrunk())){
-                        BlockPos.Mutable mutable = new BlockPos.Mutable();
-                        mutable.set(treeNode.getCenter(), i, j, k);
-                        FoliagePlacer.placeFoliageBlock(world, replacer, random, config, mutable);
-                    }
-                }
+        int height = this.height;
+        int widthZ = this.widthZ;
+        int widthX = this.widthX;
+        if(trunkHeight > 20 && random.nextDouble() < 0.5 || trunkHeight > 27){
+            height++;
+            widthZ++;
+            widthX++;
+        }
+
+        Set<BlockVector3> vset = MathHelper.makeSphere(
+                new BlockVector3(treeNode.getCenter().getX(), treeNode.getCenter().getY(), treeNode.getCenter().getZ()),
+                widthX, height, widthZ,
+                true
+        );
+
+        for (BlockVector3 posVec : vset){
+            int i = posVec.getBlockX();
+            int j = posVec.getBlockY();
+            int k = posVec.getBlockZ();
+            if(!isInvalidForLeaves(random, i, j, k, widthX, treeNode.isGiantTrunk())){
+                BlockPos.Mutable mutable = new BlockPos.Mutable();
+                mutable.set(treeNode.getCenter(), i, j-2, k);
+                FoliagePlacer.placeFoliageBlock(world, replacer, random, config, mutable);
             }
         }
     }

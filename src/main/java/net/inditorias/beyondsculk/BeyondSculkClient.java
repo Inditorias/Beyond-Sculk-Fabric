@@ -11,7 +11,7 @@ public class BeyondSculkClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(RegBlocks.RESONANT_PORTAL, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(RegBlocks.SCULK_PORTAL, RenderLayer.getTranslucent());
 
-        BlockRenderLayerMap.INSTANCE.putBlock(RegBlocks.CHARTRUCE_FLAURY_LEAVES,RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(RegBlocks.GREEN_FLARUY_LEAVES,RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(RegBlocks.BLUE_FLAURY_LEAVES,RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(RegBlocks.RED_FLAURY_LEAVES,RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(RegBlocks.CYAN_FLAURY_LEAVES,RenderLayer.getCutout());

@@ -33,7 +33,7 @@ public class RegRegistries {
         instance.add(RegBlocks.STRIPPED_FLAURY_LOG, 5, 5);
         instance.add(RegBlocks.FLAURY_PLANKS, 5, 20);
 
-        instance.add(RegBlocks.CHARTRUCE_FLAURY_LEAVES, 30, 60);
+        instance.add(RegBlocks.GREEN_FLARUY_LEAVES, 30, 60);
         instance.add(RegBlocks.BLUE_FLAURY_LEAVES, 30, 60);
         instance.add(RegBlocks.ORANGE_FLAURY_LEAVES, 30, 60);
         instance.add(RegBlocks.RED_FLAURY_LEAVES, 30, 60);
